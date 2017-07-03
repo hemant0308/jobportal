@@ -1,0 +1,92 @@
+body,html{
+	height: 100%;
+	width: 100%;
+	background-image: url("../images/bg.png");
+	color: #f4f7f7;
+	padding: 0;
+	margin:0;
+}
+header{
+	background-color: rgb(41,250,123);
+	min-height: 20vh;
+	text-align: center;
+	width: 100%;
+	margin: 0px;
+}
+header img{
+	margin: auto;
+	max-height: 50vh;
+	max-width: 50vh;
+}
+.user{
+	min-height: 20vh;
+}
+.dropdown{
+	float: right;
+}
+header .row{
+	margin: 0px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	width: 100vw;
+}
+footer{
+	min-height: 50px;
+	background-color: rgb(200,25,23);
+}
+.main{
+	min-height: 80vh;
+	width: 100%;
+}
+.main .row button{
+	padding: 15px 25px;
+	border-radius: 10%;
+	border: solid black 2px;
+	margin: 50px;
+	font-size: 20px;
+}
+.form{
+	padding: 2vh 25vw; 
+}
+.form h2{
+	text-align: center;
+	margin-bottom: 5px;
+}
+.main form{
+	border: solid #f4f7f7 2px;
+	padding: 2vh 5vw; 
+}
+.main input,.main textarea{
+	width: 30vw;
+	background-color: rgb(122,150,142);
+}
+.jobs{
+	margin-top: 50px;
+}
+.job{
+	width: 100%;
+	min-height: 10vh;
+	border-width: 2px;
+	border-color: #f4f7f7;
+	border: solid;
+	padding: 10px;
+	border-radius: 25px;
+	margin: 10px 0px;
+}
+.job button{
+	position: relative;
+	bottom: 5px;
+	left: 10px;
+	padding: 5px 20px;	
+	font-size: 20px;
+	margin-top: 3%;	
+}
+.job .title{
+	color: #1fe0e0;
+}
+.job .description{
+	margin-left: 5%;
+	color: #bed3d3;
+}
